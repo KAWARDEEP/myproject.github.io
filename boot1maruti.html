@@ -1,0 +1,699 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.2.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous" defer></script>
+<link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.2.0/dist/css/swiffy-slider.min.css" rel="stylesheet" crossorigin="anonymous">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper/swiper-bundle.min.css"
+  />
+      
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
+
+    <style>
+      @media(max-width:576px){
+        #logo{
+          height: 70px;
+          width: 100%;
+        }
+        #f{
+          float: left;
+          
+        }
+        .fr{
+          width: 100%;
+        }
+    
+      }
+
+      .text-center{
+        border-radius:50px;
+      }
+    </style>
+
+    <style>
+
+      *{ margin: 0;
+        padding: 0;
+
+      }
+
+     .back {
+      
+      background-image:url('https://htmlcolorcodes.com/assets/images/colors/navy-blue-color-solid-background-1920x1080.png');
+
+      height:100vh;
+      width:100%;
+      background-repeat:no-repeat;
+      background-size:cover;
+
+
+     }
+
+     
+
+     .row{ 
+       width: 85%;
+       margin: auto;
+       display: flex;
+       flex-wrap: wrap;
+       align-items: flex-start;
+       justify-content: space-between;
+
+     }
+
+     .col{ flex-basis: 25%;
+      padding: 10px;
+
+
+
+
+
+     }
+
+
+
+
+
+     /* .back1{
+
+      background-image:url('https://htmlcolorcodes.com/assets/images/colors/gray-color-solid-background-1920x1080.png') ;
+
+      height: 100vh;
+      width: 100%;
+      background-repeat: no-repeat;
+      background-size: cover;
+
+     } */
+
+     .text-center{ margin-top: 50px;
+  
+     }
+
+     .fr{
+
+       border-radius: 50px;
+
+     }
+     
+     .are{
+       color:black;
+     }
+     .are:hover{ 
+    
+       color:red;
+
+
+     }
+     .line{
+       height: 2px;
+       width: 8px;
+       background-color: red;
+     }
+     
+     .intro{
+       color: white;
+     }
+     
+     .intro:hover{
+       color: red;
+     }
+    
+
+     
+     .fr{
+       position: relative;
+     }
+
+     .phy:hover{ 
+       color: blue;
+
+
+     }
+     nav li a{
+       font-size: 14px;
+     }
+
+
+     .swiper {
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+      }
+
+      .swiper-slide {
+        background-position: center;
+        background-size: cover;
+        width: 300px;
+        height: 300px;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+      }
+
+
+      .bg-grey {
+        background: #292929;
+     }
+     .logo-footer {
+        margin-bottom: 40px;
+     }
+     footer {
+            color: grey;
+     }
+     footer p, a {
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+footer h6 {
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 40px;
+    position: relative;
+}
+footer h6:after {
+    position: absolute;
+    content: "";
+    background: grey;
+    width: 12%;
+    height: 1px;
+    left: 0;
+    bottom: -20px;
+}
+     .btn-footer {
+                 color: grey;
+              
+                text-decoration: none;
+                border: 1px solid;
+                border-radius: 43px;
+                font-size: 8px;
+                padding: 7px 20px;
+                line-height: 47px;
+                width: auto;
+     }
+     .btn-footer:hover {
+                
+                text-decoration: none;
+               
+     }
+    .form-footer input[type="text"] {
+        border: none;
+    border-radius: 16px 0 0 16px;
+    outline: none;
+    padding-left: 10px;
+
+    
+}
+::placeholder {
+    font-size: 10px;
+    padding-left: 10px;
+    font-style: italic;
+}
+ .form-footer input[type="button"] {
+    border: none;
+    background:#232323;
+        margin-left: -5px;
+    color: #fff;
+    outline: none;
+    border-radius: 0 16px 16px 0;
+    padding: 2px 12px;
+}
+     .social .fa {
+    color: grey;
+    font-size: 22px;
+    padding: 10px 15px;
+    background: #3c3c3c;
+}
+     footer ul li {
+    list-style: none;
+    display: block;
+}
+  footer ul  {
+   padding-left: 0;
+}
+footer ul  li a{
+  text-decoration: none;
+  color: grey;
+  text-decoration:none;
+}
+a:hover {
+    text-decoration: none;
+    
+    
+}
+.logo-part {
+    border-right: 1px solid grey;
+    height: 100%;
+    }
+    nav ul li a{
+      font-size: 13px;
+      color: black;
+    }
+    nav ul li a:hover{
+      color: black;
+    }
+    
+    </style> 
+
+
+
+
+    <title>My Project</title>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg   navbar-light bg-light " style="position:relative; top:0;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#" style="color: blue;font-weight:bold ;margin-left: 10px;"><img style="height: 40px;"  src="https://marutisuzukiarenaprodcdn.azureedge.net/-/media/images/maruti/marutisuzuki/global/maruti-logo.ashx?rev=089f9cf96e7d4e83876e8d906cb527b1&h=39&w=194&la=en&hash=B876452A0F433E2A49759110598BE8B1" id="logo" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse no-border" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-center">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="corporate.html">CORPORATE</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  SALES
+                </a>
+            
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">SERVICES</a>
+              </li>
+
+            
+
+
+              <li class="nav-item">
+                <a class="nav-link disabled">MORE FROM US</a>
+              </li>
+
+
+              <li class="nav-item">
+                <a class="nav-link disabled">IMP.CUSTOMER INFO</a>
+              </li>
+
+              
+            </ul>
+            <ul class=" d-flex justify-content-end"  style="list-style:none; ">
+              <li class="nav-item" style="border: 1px solid ;padding:5px;">
+                <a class="nav-link ">1800 102 1800 <i class="fa fa-phone"></i> <br>
+                contact@maruti.co.in   <i class="fa fa-envelope-square"></i>
+              </a>
+              </li>
+              <li class="nav-item mx-4 my-4">                <i class="fa fa-user" style="font-size: 30px; color: black; border: 1px solid black; border-radius: 50%; padding: 3px;"></i>
+              </li>
+             
+              <li class="nav-item mx-4 my-4"> <i class="fa fa-search" style="font-size: 30px; color: black; border: 1px solid black; border-radius: 50%; padding: 4px;"></i>
+              </li>
+            </ul>
+
+
+
+          </div>
+        </div>
+      </nav> 
+
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" style="height: 700px;">
+            <img src=" https://cutewallpaper.org/22/maruti-suzuki-wallpapers/2585626811.jpg" class="d-block w-100" alt="..." style="height: 100%;">
+          </div>
+          <div class="carousel-item" style="height: 700px;">
+            <img src="https://img.etimg.com/thumb/msid-78766314,width-1070,height-580,overlay-economictimes/photo.jpg" class="d-block w-100" alt="..." style="height: 100%;">
+          </div>
+          <div class="carousel-item" style="height: 700px;">
+            <img src="https://i.ytimg.com/vi/0ZoD6rlxQKE/maxresdefault.jpg" class="d-block w-100" alt="..." height="100%">
+          </div>
+          <div class="carousel-item" style="height: 700px;">
+            <img src="https://wallpaperaccess.com/full/1607591.jpg" class="d-block w-100" alt="..." height="100%">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div class="back" style="margin-top: 20px;">
+        <p style="margin-top: 80px; display: inline-block;"></p>
+
+       
+       
+         <h4 style="text-align: center;  padding-top: 20px; " class="are ">A<span class="py-2" style=" border-top-style: solid;border-top-color: red;">REN</span>A </h4>
+        
+       
+        <h1 style="text-align: center;;padding-top:20px ;" class="intro">  INTRODUCTION    </h1>
+          <div class="text-center">
+        <iframe class="fr"  width="560" height="315" src="https://www.youtube.com/embed/YWl63bJvaMk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
+        </div>
+      
+    
+
+        </div>
+  
+       </div>
+
+      
+      <div class="back1" style="margin-top: 20px; ">
+
+        <p style="margin-top: 80px; display: inline-block;"></p>
+      
+        <h4 style="text-align: center;  padding-top: 20px; " class="are ">A<span class="py-2" style=" border-top-style: solid;border-top-color: red;">REN</span>A </h4>
+
+        <h1 style="color:black;text-align: center; " class="phy">   PHILOSOPHY   </h1>
+        <div class="row">
+          <div class="col-6 p-4 my-3" style="border-right-style: solid; border-right-color: #e9dbdb;">  <p style="text-align: right;" > Welcome. <br>
+            To new-age designs, <br>
+            advanced technologies <br>
+            and thoughtfully designed experiences. <br> <br>
+            
+             Welcome. <br>
+            To a world of <br>
+            warm greetings and bright smiles. <br><br> 
+            
+            Welcome. <br>
+            To friendly conversations over <br>
+            freshly brewed coffee. <br>
+            And interactive screens for you to engage with. <br> <br>
+            
+            Welcome. <br>
+            To a world of choices,<br>
+            filled with colours, accessories and styles.   <br> <br>
+          
+            </p> 
+          </div>
+          <div class="col-6 p-4 my-3"> <p style="text-align: left;">   Welcome. <br>
+            To a heaven of ease and comfort, <br>
+            where decisions are easy to take <br>
+            and only yours to make. <br> <br>
+            
+            Welcome. <br>
+            To happy faces spelling congratulations <br>
+            and gearing you up for celebrations. <br> <br>
+            
+            Welcome to Maruti Suzuki Arena. <br>
+            A dynamic new destination. Tailored for YOU. <br>
+
+
+
+          </p>
+        
+        </div>
+
+     
+
+        </div>
+
+
+
+
+
+      </div>
+
+
+
+
+      </div>
+
+
+      <div class="swiffy-slider slider-nav-round slider-nav-animation slider-nav-animation-fadein my-5">
+        <ul class="slider-container">
+            <li class="slide-visible">
+                <div class="card rounded-0 h-100">
+                    <div class="row g-0 h-100">
+                        <div class="col-md-6 col-xl-5 d-flex align-items-center  ">
+                            <div class="card-body text-center ">
+                                
+                              
+                                <h2 class="card-title" style="color:#DF1E1E;text-align: center;"> WHA<span style="border-top-style:solid ; border-top-color: red;padding-top: 5px;">T'S N</span>EW   </h2>
+                                <h1   class="card-text mt-3">   PRODUCT VISION   </h1>
+                                <ul>
+                                <li>   Advance new technology with seamless integeation of online and offline registration    </li>
+                                <li>  A space designed for conversations and coffe to help us understand you better  </li>
+                                <li>  A user-friendly technology to explore cars with interactive touch screen  </li>
+                                <li>   A new unique way to personalize your car as per your style  </li>
+                                <li>  Make your self comfortable in our exclusive owner's lounge while we get your car ready for you    </li>
+
+
+
+
+                                </ul>
+                                
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-xl-7">
+                            <img src="https://images.financialexpress.com/2017/08/maruti-suzuki-arena-Cafe.jpg?w=800&h=533&imflag=true" class="card-img d-none d-md-block" loading="lazy" style="height: 100%; object-fit: cover;" alt="...">
+                            <img src="https://images.financialexpress.com/2017/08/maruti-suzuki-arena-Value-Vision-Screens.jpg?w=800&h=533&imflag=true" class="card-img d-block d-md-none" loading="lazy" style="width: 100%; object-fit: cover;" alt="...">
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="">
+                <div class="card rounded-0 h-100">
+                    <div class="row g-0 h-100">
+                        <div class="col-md-6 col-xl-7">
+                            <img src="https://images.financialexpress.com/2017/08/maruti-suzuki-arena-Value-Vision-Screens.jpg?w=800&h=533&imflag=true" class="card-img d-none d-md-block" loading="lazy" style="height: 100%; object-fit: cover" alt="...">
+                            <img src="https://images.financialexpress.com/2017/08/maruti-suzuki-arena-Value-Vision-Screens.jpg?w=800&h=533&imflag=true" class="card-img d-block d-md-none" loading="lazy" style="width: 100%; object-fit: cover" alt="...">
+                        </div>
+                        <div class="col-md-6 col-xl-5 d-flex align-items-center ">
+                            <div class="card-body text-center ">
+                                
+                           
+                              <h2 class="card-title" style="text-align: center;"> WHA<span style="border-top-style:solid ; border-top-color: red;padding-top: 5px;">T'S N</span>EW   </h2>
+                              <h1   class="card-text mt-3">  PRODUCT VISSION  </h1>
+                              <ul>
+                              
+                              <li>  A space designed for conversations and coffe to help us understand you better  </li>
+                              <li>  A user-friendly technology to explore cars with interactive touch screen  </li>
+                              <li>   A new unique way to personalize your car as per your style  </li>
+                              <li>  Make your self comfortable in our exclusive owner's lounge while we get your car ready for you    </li>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            
+        </ul>
+    
+        <button type="button"  class="slider-nav" aria-label="Go left"></button>
+        <button type="button" class="slider-nav slider-nav-next" aria-label="Go left"></button>
+    
+    </div>
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="https://images.hindustantimes.com/auto/img/2021/06/07/600x338/maruti_91_1580974798251_1623047066037.jpg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="https://english.cdn.zeenews.com/sites/default/files/styles/zm_700x400/public/2021/07/12/950915-maruti-suzuki-1.jpg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="https://www.rushlane.com/wp-content/uploads/2021/07/maruti-ertiga-cng-price-increased-1200x900.jpg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="https://www.rushlane.com/wp-content/uploads/2021/01/maruti-xl6-price-hike-jan-2021-new-768x576.jpg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="https://cdni.autocarindia.com/ExtraImages/20210622124650_Maruti_Suzuki_Ignis_showroom.jpg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="https://stimg.cardekho.com/images/carexteriorimages/930x620/Maruti/Swift/8378/1614747593719/front-left-side-47.jpg" />
+        </div>
+        <div class="swiper-slide">
+          
+          <a href="van.html">
+          <img src="https://stimg.cardekho.com/images/carexteriorimages/630x420/Maruti/SX4-S-Cross/7525/1596687171065/exterior-image-165.jpg?tr=w-360" /></a>
+        </div>
+        <div class="swiper-slide">
+          <img src="https://imgd.aeplcdn.com/600x337/n/cw/ec/45691/marutisuzuki-dzire-right-front-three-quarter8.jpeg?q=85" />
+        </div>
+        <div class="swiper-slide">
+          <img src="https://ic1.maxabout.us/autos/cars_india//N/2018/8/new-maruti-suzuki-omni-india.jpg" />
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+    
+        <!-- <footer>
+        
+        <div    class="row"    >    
+                
+         
+       <div class="col">
+        
+        <h2>   REACH US      </h2>
+        <h3>    3617 SALES OUTLETS 3904 SERVICE WORKSHOPS         </h3>
+        <h4>     AS ON 1 SEPTEMBER 2020             </h4>
+
+
+
+
+       </div>
+
+
+
+
+       <div class="col"></div>
+       <div class="col"></div>
+       <div class="col"></div>
+
+      </div>
+
+
+        </footer> -->
+
+
+        <footer class="container-fluid bg-grey py-5">
+          <div class="container">
+             <div class="row">
+                <div class="col-md-6">
+                   <div class="row">
+                      <div class="col-md-6 ">
+                         <div class="logo-part">
+                            <h4>     REACH US      </h4>
+                            <p>  3617 Sales outlets 3904 Service Workshops  </p>
+                            <p>    As On 9 March 2021             </p>
+                         </div>
+                      </div>
+                      <div class="col-md-6 px-4">
+                         <h6> About Company</h6>
+                         <p> MARUTI SUZUKI INDIA LIMITED.</p>
+                         <a href="#" class="btn-footer"> LOCATE A DEALER </a><br>
+                         <a href="#" class="btn-footer"> BOOK  SHOWROOM VISIT</a>
+                      </div>
+                   </div>
+                </div>
+                <div class="col-md-6">
+                   <div class="row">
+                      <div class="col-md-6 px-4">
+                         <h6> Help us</h6>
+                         <div class="row ">
+                            <div class="col-md-6">
+                               <ul>
+                                  <li> <a href="#"> Home</a> </li>
+                                  <li> <a href="#"> About</a> </li>
+                                  <li> <a href="#"> Service</a> </li>
+                                  <li> <a href="#"> Team</a> </li>
+                                  <li> <a href="#"> Help</a> </li>
+                                  <li> <a href="#"> Contact</a> </li>
+                               </ul>
+                            </div>
+                            <div class="col-md-6 px-4">
+                               <ul>
+                                  <li> <a href="#"> SALES</a> </li>
+                                  <li> <a href="#"> MARUTI SUZUKI ARENA</a> </li>
+                                  <li> <a href="#"> Nexa</a> </li>
+                                  <li> <a href="#"> True Value</a> </li>
+                                  <li> <a href="#"> Commercial</a> </li>
+                                  <li> <a href="#"> Investors</a> </li>
+                               </ul>
+                            </div>
+                         </div>
+                      </div>
+                      <div class="col-md-6 ">
+                         <h6> Social Media</h6>
+                         <div class="social">
+                            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                         </div>
+                         <form class="form-footer my-3">
+                            <input type="text"  placeholder="search here...." name="search">
+                            <input type="button" value="Go" >
+                         </form>
+                         <p>  Caution: Beware of Fake Promotions or Offers    </p>
+                      </div>
+                   </div>
+                </div>
+             </div>
+          </div>
+          </footer>
+    
+   
+  
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        loop: true,
+        slidesPerView: "auto",
+        coverflowEffect: {
+          rotate: 50,
+          stretch: 0,
+          depth: 100,
+          modifier: 1,
+          slideShadows: true,
+        },
+        autoplay:{
+          delay:2000,
+
+        },
+        pagination: {
+          el: ".swiper-pagination",
+        },
+      });
+    </script>
+  </body>
+</html>
